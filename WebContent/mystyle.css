@@ -1,0 +1,23 @@
+
+form{
+	color: blue;
+	background-color: #bfe6e8;
+	font-style: italic;
+	font-family: "Times New Roman", Times, serif;
+	padding: 20px;
+	margin-top: 100px;
+	
+}
+
+div {
+	background-color: #bfe6e8;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	padding: 20px;
+	text-transform: uppercase;
+	color: blue;
+	margin-top: 100px;
+	
+}
+
+body{background-color: #d9f7ff;}

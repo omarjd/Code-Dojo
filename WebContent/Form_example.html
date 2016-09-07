@@ -1,0 +1,28 @@
+<head>
+<script src="script.js"></script> 
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+</head>
+
+
+<form name="form1" action="register.jsp" method="post" onsubmit="return validateForm()">
+
+	Your Name: <input name="name" type="text"><br />
+	Your Email: <input name="email" type="text"> <br />
+	Age (optional): <br><input name="age" type="radio" value = "0-10"> 0-10 years<br>
+	<input name ="age" type="radio" value = "11-20"> 11-20 years<br>
+	<input name ="age" type="radio" value = "21-30"> 21-30 years<br>
+	<input name = "age" type="radio" value = "31-40"> 31-40 years<br>
+	<input name = "age" type="radio" value = "41-50"> 41-50 years<br>
+	<input name = "age" type="radio" value = "50+"> 50+ years<br>
+	
+	Bootcamp: 
+	<select name="course">
+	  <option value="Java">Java</option>
+	  <option value="Front-End">Front-End</option>
+	  <option value="Part-Time Front-End">Part-Time Front-End</option>
+	  <option value=".net">.NET</option>
+	</select>
+	<button type="submit">Submit!</button>
+</form>
+
